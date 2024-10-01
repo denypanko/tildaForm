@@ -7,7 +7,8 @@
 2. Загрузить файл tss.min.js на свой хостинг
 3. Добавить на странице тилды следующий код:
 
-<pre><script src="https://api.mufiksoft.com/js/tss.min.js"></script>
+<pre><script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://api.mufiksoft.com/js/tss.min.js"></script>
 <script>
     tssDeepLink("ВАШ ДОМЕН", true, {
         variables: {
